@@ -1,1 +1,7 @@
-This is the source code to Jon Barron's public academic website: https://jonbarron.info/. You are welcome to clone this code for your own personal use, just please attribute the source to the original website or to this repo. If you do clone this website, feel free to add an attribution link to your own downstream website in index.html if you want.
+##Jon Barron's Portfolio Re-Design##
+
+changes:
+-got rid of table because I'm not used to that layout method
+-moving styling to css file
+-moving scripts to js file
+-creating a reusable function
