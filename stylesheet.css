@@ -7,7 +7,7 @@ body {
 #profile {
   display: flex;
   flex-direction: column;
-  width: 200vw;
+  width: 120vw;
   position: sticky;
   top: 0;
 }
@@ -46,6 +46,15 @@ p {
   margin: 5px;
 }
 
+#research > * {
+  width: 100%;
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 a {
   color: #1772d0;
   text-decoration: none;
@@ -57,25 +66,10 @@ a:hover {
   text-decoration: none;
 }
 
-strong {
-  font-family: "Lato", Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-heading {
-  font-family: "Lato", Verdana, Helvetica, sans-serif;
-  font-size: 22px;
-}
-
 papertitle {
   font-family: "Lato", Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
-}
-
-name {
-  font-family: "Lato", Verdana, Helvetica, sans-serif;
-  font-size: 32px;
 }
 
 .one {
@@ -91,6 +85,7 @@ name {
   transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.2s ease-in-out;
   -webkit-transition: opacity 0.2s ease-in-out;
+  opacity: 0;
 }
 
 .fade {
