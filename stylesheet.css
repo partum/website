@@ -104,4 +104,5 @@ span.highlight {
 
 article {
   display: flex;
+  margin-bottom: 72px;
 }

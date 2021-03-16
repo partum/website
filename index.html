@@ -92,50 +92,46 @@
       <div id="research">
         
           <article>
-            
-              <div class="one">
-                <div class="two" id="ibrnet_image" onmouseout="animation_stop(this.id)" onmouseover="animation_start(this.id)">
-                  <video width="100%" height="100%" muted autoplay loop>
-                    <source src="images/ibrnet_after.mp4" type="video/mp4" />
+            <div class="one">
+              <div class="two" id="ibrnet_image" onmouseout="animation_stop(this.id)" onmouseover="animation_start(this.id)">
+                <video width="100%" height="100%" muted autoplay loop>
+                  <source src="images/ibrnet_after.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
-                  </video>
-                </div>
-                <img src="images/ibrnet_before.jpg" width="160" />
+                </video>
               </div>
+              <img src="images/ibrnet_before.jpg" width="160" />
+            </div>
 
-            <div class="article-info">
-              
+            <div class="article-info">     
               <a href="https://ibrnet.github.io/">
                 <papertitle
                   >IBRNet: Learning Multi-View Image-Based Rendering</papertitle
                 >
               </a>
               <div>
-              <a href="https://www.cs.cornell.edu/~qqw/">Qianqian Wang</a>,
-              <a href="https://www.linkedin.com/in/zhicheng-wang-96116897/"
-                >Zhicheng Wang</a
-              >, <a href="https://www.kylegenova.com/">Kyle Genova</a>,
-              <a href="https://people.eecs.berkeley.edu/~pratul/"
+                <a href="https://www.cs.cornell.edu/~qqw/">Qianqian Wang</a>,
+                <a href="https://www.linkedin.com/in/zhicheng-wang-96116897/"
+                  >Zhicheng Wang</a
+                >, <a href="https://www.kylegenova.com/">Kyle Genova</a>,
+                <a href="https://people.eecs.berkeley.edu/~pratul/"
                 >Pratul Srinivasan</a
-              >,
-              <a
+                >,
+                <a
                 href="https://scholar.google.com/citations?user=Rh9T3EcAAAAJ&hl=en"
                 >Howard Zhou</a
-              >, 
-              <strong>Jonathan T. Barron</strong>,
-              <a href="http://www.ricardomartinbrualla.com/"
+                >, 
+                <strong>Jonathan T. Barron</strong>,
+                <a href="http://www.ricardomartinbrualla.com/"
                 >Ricardo Martin-Brualla</a
-              >,
-              <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a>,
-              <a href="https://www.cs.princeton.edu/~funk/"
+                >,
+                <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a>,
+                <a href="https://www.cs.princeton.edu/~funk/"
                 >Thomas Funkhouser</a
-              >
-            </div>
+                >
+              </div>
               <div><em>CVPR</em>, 2021</div>
-              
               <a href="https://ibrnet.github.io/">project page</a> /
               <a href="https://arxiv.org/abs/2102.13090">arXiv</a>
-              
               <p>
                 By learning how to pay attention to input images at render time,
                 we can amortize inference for view synthesis and reduce error
@@ -144,10 +140,10 @@
             </div>
           </article>
 
-          <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
-            <td style="padding: 20px; width: 25%; vertical-align: middle">
-              <div class="one">
-                <div class="two" id="nerv_image">
+          <article>
+          
+            <div class="one">
+                <div class="two" id="nerv_image" onmouseout="animation_stop(this.id)" onmouseover="animation_start(this.id)">
                   <video width="100%" height="100%" muted autoplay loop>
                     <source src="images/hotdog.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
@@ -155,38 +151,29 @@
                 </div>
                 <img src="images/hotdog.jpg" width="160" />
               </div>
-              <script type="text/javascript">
-                function nerv_start() {
-                  document.getElementById("nerv_image").style.opacity = "1";
-                }
-
-                function nerv_stop() {
-                  document.getElementById("nerv_image").style.opacity = "0";
-                }
-                nerv_stop();
-              </script>
-            </td>
-            <td style="padding: 20px; width: 75%; vertical-align: middle">
+              
+            <div class="article-info">
               <a href="https://people.eecs.berkeley.edu/~pratul/nerv/">
                 <papertitle
                   >NeRV: Neural Reflectione and Visibility Fields for Relighting
                   and View Synthesis</papertitle
                 >
               </a>
-              <br />
+               <div>
               <a href="https://people.eecs.berkeley.edu/~pratul/"
                 >Pratul Srinivasan</a
               >, <a href="https://boyangdeng.com/">Boyang Deng</a>,
               <a href="https://people.csail.mit.edu/xiuming/">Xiuming Zhang</a>,
-              <br />
+               
               <a href="http://matthewtancik.com/">Matthew Tancik</a>,
               <a href="https://people.eecs.berkeley.edu/~bmild/"
                 >Ben Mildenhall</a
               >,
               <strong>Jonathan T. Barron</strong>
-              <br />
-              <em>CVPR</em>, 2021
-              <br />
+            </div>
+            <div>
+              <em>CVPR</em>, 2021</div>
+               
               <a href="https://people.eecs.berkeley.edu/~pratul/nerv/"
                 >project page</a
               >
@@ -198,13 +185,13 @@
                 Using neural approximations of expensive visibility integrals
                 lets you recover relightable NeRF-like models.
               </p>
-            </td>
-          </tr>
+            </div>
+          
+          </article>
 
-          <tr onmouseout="winr_stop()" onmouseover="winr_start()">
-            <td style="padding: 20px; width: 25%; vertical-align: middle">
+          <article>
               <div class="one">
-                <div class="two" id="winr_image">
+                <div class="two" id="winr_image" onmouseout="animation_stop(this.id)" onmouseover="animation_start(this.id)">
                   <video width="100%" height="100%" muted autoplay loop>
                     <source src="images/notre_160.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
@@ -212,24 +199,16 @@
                 </div>
                 <img src="images/notre.jpg" width="160" />
               </div>
-              <script type="text/javascript">
-                function winr_start() {
-                  document.getElementById("winr_image").style.opacity = "1";
-                }
-                function winr_stop() {
-                  document.getElementById("winr_image").style.opacity = "0";
-                }
-                winr_stop();
-              </script>
-            </td>
-            <td style="padding: 20px; width: 75%; vertical-align: middle">
+
+            <div class="article-info">
+              
               <a href="http://www.matthewtancik.com/learnit">
                 <papertitle
                   >Learned Initializations for Optimizing Coordinate-Based
                   Neural Representations</papertitle
                 >
               </a>
-              <br />
+              <div>
               <a href="http://matthewtancik.com/">Matthew Tancik*</a>,
               <a href="https://people.eecs.berkeley.edu/~bmild/"
                 >Ben Mildenhall*</a
@@ -239,7 +218,7 @@
               >,
               <a href="https://www.linkedin.com/in/divi-schmidt-262044180/"
                 >Divi Schmidt</a
-              >, <br />
+              >,  
               <a href="https://people.eecs.berkeley.edu/~pratul/"
                 >Pratul Srinivasan</a
               >, <strong>Jonathan T. Barron</strong>,
@@ -247,10 +226,11 @@
                 href="https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html"
                 >Ren Ng</a
               >
-              <br />
-              <em>CVPR</em>, 2021 &nbsp
+            </div>
+            <div>
+              <em>CVPR</em>, 2021 </div>
               <font color="red"><strong>(Oral Presentation)</strong></font>
-              <br />
+               
               <a href="http://www.matthewtancik.com/learnit">project page</a> /
               <a href="https://www.youtube.com/watch?v=A-r9itCzcyo">video</a> /
               <a href="https://arxiv.org/abs/2012.02189">arXiv</a>
@@ -260,8 +240,8 @@
                 coordinate-based MLPs allows them to converge faster and
                 generalize better.
               </p>
-            </td>
-          </tr>
+            
+          </article>
 
           <tr onmouseout="nerfw_stop()" onmouseover="nerfw_start()">
             <td style="padding: 20px; width: 25%; vertical-align: middle">
@@ -292,7 +272,7 @@
                   Photo Collections</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://www.ricardomartinbrualla.com/"
                 >Ricardo Martin-Brualla*</a
               >,
@@ -302,7 +282,7 @@
               >,
               <a href="https://research.google/people/105804/"
                 >Mehdi S. M. Sajjadi*</a
-              >, <br />
+              >,  
               <strong>Jonathan T. Barron</strong>,
               <a
                 href="https://scholar.google.com/citations?user=FXNJRDoAAAAJ&hl=en"
@@ -311,10 +291,10 @@
               <a href="http://www.stronglyconvex.com/about.html"
                 >Daniel Duckworth</a
               >
-              <br />
+               
               <em>CVPR</em>, 2021 &nbsp
               <font color="red"><strong>(Oral Presentation)</strong></font>
-              <br />
+               
               <a href="https://nerf-w.github.io/">project page</a> /
               <a href="https://arxiv.org/abs/2008.02268">arXiv</a> /
               <a href="https://www.youtube.com/watch?v=mRAKVQj5LRA">video</a>
@@ -355,10 +335,10 @@
                   Estimation</papertitle
                 >
               </a>
-              <br />
+               
               <a href="https://yenchenlin.me/">Lin Yen-Chen</a>,
               <a href="http://www.peteflorence.com/">Pete Florence</a>,
-              <strong>Jonathan T. Barron</strong>, <br />
+              <strong>Jonathan T. Barron</strong>,  
               <a href="https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU"
                 >Alberto Rodriguez</a
               >, <a href="http://web.mit.edu/phillipi/">Phillip Isola</a>,
@@ -366,9 +346,9 @@
                 href="https://scholar.google.com/citations?user=_BPdgV0AAAAJ&hl=en"
                 >Tsung-Yi Lin</a
               >
-              <br />
+               
               <em>arXiv</em>, 2020
-              <br />
+               
               <a href="http://yenchenlin.me/inerf/">project page</a> /
               <a href="https://arxiv.org/abs/2012.05877">arXiv</a> /
               <a href="https://www.youtube.com/watch?v=eQuCZaQN0tI">video</a>
@@ -409,7 +389,7 @@
                   Collections</papertitle
                 >
               </a>
-              <br />
+               
 
               <a href="https://markboss.me">Mark Boss</a>,
               <a
@@ -422,9 +402,9 @@
                 href="https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/computer-science/lehrstuehle/computergrafik/computer-graphics/staff/prof-dr-ing-hendrik-lensch/"
                 >Hendrik P. A. Lensch</a
               >
-              <br />
+               
               <em>arXiv</em>, 2020
-              <br />
+               
               <a href="https://markboss.me/publication/2021-nerd/"
                 >project page</a
               >
@@ -470,12 +450,12 @@
               <a href="https://nerfies.github.io/">
                 <papertitle>Deformable Neural Radiance Fields</papertitle>
               </a>
-              <br />
+               
 
               <a href="https://keunhong.com">Keunhong Park</a>,
               <a href="https://utkarshsinha.com">Utkarsh Sinha</a>,
               <strong>Jonathan T. Barron</strong>,
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a>, <br />
+              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a>,  
               <a href="https://www.danbgoldman.com">Dan B Goldman</a>,
               <a href="https://homes.cs.washington.edu/~seitz/"
                 >Steven M. Seitz</a
@@ -483,9 +463,9 @@
               <a href="http://www.ricardomartinbrualla.com"
                 >Ricardo-Martin Brualla</a
               >
-              <br />
+               
               <em>arXiv</em>, 2020
-              <br />
+               
               <a href="https://nerfies.github.io/">project page</a> /
               <a href="https://arxiv.org/abs/2011.12948">arXiv</a> /
               <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA">video</a>
@@ -520,21 +500,21 @@
               <a href="https://arxiv.org/abs/2011.12485">
                 <papertitle>Single-Image Lens Flare Removal</papertitle>
               </a>
-              <br />
+               
               <a href="http://yicheng.rice.edu/">Yicheng Wu</a>,
               <a href="https://scholar.google.com/citations?user=BxqV_RsAAAAJ"
                 >Qiurui He</a
               >, <a href="https://people.csail.mit.edu/tfxue/">Tianfan Xue</a>,
-              <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>, <br />
+              <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,  
               <a href="http://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
               <a
                 href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/"
                 >Ashok Veeraraghavan</a
               >,
               <strong>Jonathan T. Barron</strong>
-              <br />
+               
               <em>arXiv</em>, 2020
-              <br />
+               
               <a href="https://yichengwu.github.io/flare-removal/"
                 >project page</a
               >
@@ -573,7 +553,7 @@
                   >Cross-Camera Convolutional Color Constancy</papertitle
                 >
               </a>
-              <br />
+               
               <a href="https://sites.google.com/corp/view/mafifi"
                 >Mahmoud Afifi</a
               >, <strong>Jonathan T. Barron</strong>,
@@ -582,9 +562,9 @@
               <a href="https://www.linkedin.com/in/fbleibel/"
                 >Francois Bleibel</a
               >
-              <br />
+               
               <em>arXiv</em>, 2020
-              <br />
+               
               <p></p>
               <p>
                 With some extra (unlabeled) test-set images, you can build a
@@ -622,7 +602,7 @@
                   Relighting</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://kevinkingo.com/">Tiancheng Sun</a>,
               <a href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>
               <a href="http://people.csail.mit.edu/xiuming/">Xiuming Zhang</a>,
@@ -634,9 +614,9 @@
               <a href="https://research.google/people/105312/">Yun-Ta Tsai</a>,
               <strong>Jonathan T. Barron</strong>,
               <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>
-              <br />
+               
               <em>SIGGRAPH Asia</em>, 2020
-              <br />
+               
               <a
                 href="http://cseweb.ucsd.edu/~viscomp/projects/SIGA20LightstageSuperres/"
                 >project page</a
@@ -674,7 +654,7 @@
               <a href="http://sniklaus.com/dualref">
                 <papertitle>Learned Dual-View Reflection Removal</papertitle>
               </a>
-              <br />
+               
               <a href="http://sniklaus.com/welcome">Simon Niklaus</a>,
               <a href="https://people.eecs.berkeley.edu/~cecilia77/"
                 >Xuaner (Cecilia) Zhang</a
@@ -683,9 +663,9 @@
               <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,
               <a href="http://web.cecs.pdx.edu/~fliu/">Feng Liu</a>,
               <a href="https://people.csail.mit.edu/tfxue/">Tianfan Xue</a>,
-              <br />
+               
               <em>WACV</em>, 2021
-              <br />
+               
               <a href="http://sniklaus.com/dualref">project page</a> /
               <a href="https://arxiv.org/abs/2010.00702">arXiv</a>
               <p></p>
@@ -725,7 +705,7 @@
                   Synthesis</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://people.csail.mit.edu/xiuming/">Xiuming Zhang</a>,
               <a href="http://www.seanfanello.it/">Sean Fanello</a>,
               <a href="https://research.google/people/105312/">Yun-Ta Tsai</a>,
@@ -743,9 +723,9 @@
               <strong>Jonathan T. Barron</strong>,
               <a href="http://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,
               <a href="http://billf.mit.edu/">William T. Freeman</a>
-              <br />
+               
               <em>ACM TOG</em>, 2021
-              <br />
+               
               <a href="http://nlt.csail.mit.edu/">project page</a> /
               <a href="https://arxiv.org/abs/2008.03806">arXiv</a> /
               <a href="https://www.youtube.com/watch?v=OGEnCWZihHE">video</a>
@@ -785,7 +765,7 @@
                   in Low Dimensional Domains</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://matthewtancik.com/">Matthew Tancik*</a>,
               <a href="https://people.eecs.berkeley.edu/~pratul/"
                 >Pratul Srinivasan*</a
@@ -808,10 +788,10 @@
                 href="https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html"
                 >Ren Ng</a
               >
-              <br />
+               
               <em>NeurIPS</em>, 2020 &nbsp
               <font color="#FF8080"><strong>(Spotlight)</strong></font>
-              <br />
+               
               <a href="https://people.eecs.berkeley.edu/~bmild/fourfeat/"
                 >project page</a
               >
@@ -856,16 +836,16 @@
                   Thresholding</papertitle
                 >
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>
-              <br />
+               
               <em>ECCV</em>, 2020 &nbsp
               <font color="#FF8080"><strong>(Spotlight)</strong></font>
-              <br />
+               
               <a href="https://github.com/jonbarron/hist_thresh">code</a> /
               <a href="https://www.youtube.com/watch?v=rHtQQlQo1Q4">video</a> /
               <a href="data/BarronECCV2020.bib">bibtex</a>
-              <br />
+               
               <p></p>
               <p>
                 A simple and fast Bayesian algorithm that can be written in ~10
@@ -900,7 +880,7 @@
                   >What Matters in Unsupervised Optical Flow</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://ricojonschkowski.com/">Rico Jonschkowski</a>,
               <a
                 href="https://www.linkedin.com/in/austin-charles-stone-1ba33b138/"
@@ -915,15 +895,15 @@
               <a href="https://research.google/people/AneliaAngelova/"
                 >Anelia Angelova</a
               >
-              <br />
+               
               <em>ECCV</em>, 2020 &nbsp
               <font color="red"><strong>(Oral Presentation)</strong></font>
-              <br />
+               
               <a
                 href="https://github.com/google-research/google-research/tree/master/uflow"
                 >code</a
               >
-              <br />
+               
               <p></p>
               <p>
                 Extensive experimentation yields a simple optical flow technique
@@ -966,7 +946,7 @@
                   Synthesis</papertitle
                 >
               </a>
-              <br />
+               
               <a href="https://people.eecs.berkeley.edu/~bmild/"
                 >Ben Mildenhall*</a
               >,
@@ -979,14 +959,14 @@
                 href="https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html"
                 >Ren Ng</a
               >
-              <br />
+               
               <em>ECCV</em>, 2020 &nbsp
               <font color="red"
                 ><strong
                   >(Oral Presentation, Best Paper Honorable Mention)</strong
                 ></font
               >
-              <br />
+               
               <a href="http://www.matthewtancik.com/nerf">project page</a>
               /
               <a href="https://arxiv.org/abs/2003.08934">arXiv</a>
@@ -1037,7 +1017,7 @@
               <a href="https://arxiv.org/abs/2005.08925">
                 <papertitle>Portrait Shadow Manipulation</papertitle>
               </a>
-              <br />
+               
               <a href="https://people.eecs.berkeley.edu/~cecilia77/"
                 >Xuaner (Cecilia) Zhang</a
               >, <strong>Jonathan T. Barron</strong>,
@@ -1051,9 +1031,9 @@
               <a href="http://graphics.stanford.edu/~dejacobs/"
                 >David E. Jacobs</a
               >
-              <br />
+               
               <em>SIGGRAPH</em>, 2020
-              <br />
+               
               <a
                 href="https://people.eecs.berkeley.edu/~cecilia77/project-pages/portrait"
                 >project page</a
@@ -1091,7 +1071,7 @@
               <a href="https://arxiv.org/abs/2004.12260">
                 <papertitle>Learning to Autofocus</papertitle>
               </a>
-              <br />
+               
               <a href="">Charles Herrmann</a>,
               <a href="">Richard Strong Bowen</a>,
               <a href="http://nealwadhwa.com">Neal Wadhwa</a>,
@@ -1100,9 +1080,9 @@
                 >Qiurui He</a
               >, <strong>Jonathan T. Barron</strong>,
               <a href="http://www.cs.cornell.edu/~rdz/index.htm">Ramin Zabih</a>
-              <br />
+               
               <em>CVPR</em>, 2020
-              <br />
+               
               <a href="https://arxiv.org/abs/2004.12260">arXiv</a>
               <p></p>
               <p>
@@ -1141,7 +1121,7 @@
                   Spatially-Coherent Illumination</papertitle
                 >
               </a>
-              <br />
+               
               <a href="https://people.eecs.berkeley.edu/~pratul/"
                 >Pratul Srinivasan*</a
               >,
@@ -1153,9 +1133,9 @@
                 >Richard Tucker</a
               >,
               <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a>
-              <br />
+               
               <em>CVPR</em>, 2020
-              <br />
+               
               <a href="https://people.eecs.berkeley.edu/~pratul/lighthouse/"
                 >project page</a
               >
@@ -1199,7 +1179,7 @@
                   Skies in Low-Light Photography</papertitle
                 >
               </a>
-              <br />
+               
               <a href="https://sites.google.com/corp/view/orly-liba/"
                 >Orly Liba</a
               >,
@@ -1219,9 +1199,9 @@
                 >Huizhong Chen</a
               >,
               <strong>Jonathan T. Barron</strong>
-              <br />
+               
               <em>NTIRE CVPRW</em>, 2020
-              <br />
+               
               <a href="https://google.github.io/sky-optimization/"
                 >project page</a
               >
@@ -1260,7 +1240,7 @@
                   >Handheld Mobile Photography in Very Low Light</papertitle
                 >
               </a>
-              <br />
+               
               <a href="https://sites.google.com/site/orlylibaprofessional/"
                 >Orly Liba</a
               >,
@@ -1286,13 +1266,13 @@
                 >Yael Pritch</a
               >,
               <a href="http://graphics.stanford.edu/~levoy/">Marc Levoy</a>
-              <br />
+               
               <em>SIGGRAPH Asia</em>, 2019
-              <br />
+               
               <a href="https://github.com/google/night-sight/tree/master/docs"
                 >project page</a
               >
-              <br />
+               
               <p></p>
               <p>
                 By rethinking metering, white balance, and tone mapping, we can
@@ -1327,17 +1307,17 @@
                   Fonts</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://www.cs.cmu.edu/~asrivats/">Nikita Srivatsan</a>,
               <strong>Jonathan T. Barron</strong>,
               <a href="https://people.eecs.berkeley.edu/~klein/">Dan Klein</a>,
               <a href="http://cseweb.ucsd.edu/~tberg/"
                 >Taylor Berg-Kirkpatrick</a
               >
-              <br />
+               
               <em>EMNLP</em>, 2019 &nbsp
               <font color="red"><strong>(Oral Presentation)</strong></font>
-              <br />
+               
               <p></p>
               <p>
                 Variational auto-encoders can be used to disentangle a
@@ -1372,15 +1352,15 @@
                   Dual-Pixels</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,
               <a href="http://nealwadhwa.com">Neal Wadhwa</a>,
               <a href="">Sameer Ansari,</a>,
               <strong>Jonathan T. Barron</strong>
-              <br />
+               
               <em>ICCV</em>, 2019 &nbsp
               <font color="red"><strong>(Oral Presentation)</strong></font>
-              <br />
+               
               <a
                 href="https://github.com/google-research/google-research/tree/master/dual_pixels"
                 >code</a
@@ -1420,7 +1400,7 @@
               >
                 <papertitle>Single Image Portrait Relighting</papertitle>
               </a>
-              <br />
+               
               <a href="http://kevinkingo.com/">Tiancheng Sun</a>,
               <strong>Jonathan T. Barron</strong>,
               <a href="https://ai.google/research/people/105312/">Yun-Ta Tsai</a
@@ -1430,9 +1410,9 @@
               >, Christoph Rhemann, Jay Busch,
               <a href="https://www.pauldebevec.com/">Paul Debevec</a>,
               <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>
-              <br />
+               
               <em>SIGGRAPH</em>, 2019
-              <br />
+               
               <a
                 href="http://cseweb.ucsd.edu/~viscomp/projects/SIG19PortraitRelighting/"
                 >project page</a
@@ -1445,7 +1425,7 @@
               >
               /
               <a href="data/SunSIGGRAPH2019.bib">bibtex</a>
-              <br />
+               
               <p></p>
               <p>
                 Training a neural network on light stage scans and environment
@@ -1485,16 +1465,16 @@
                   >A General and Adaptive Robust Loss Function</papertitle
                 >
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>
-              <br />
+               
               <em>CVPR</em>, 2019 &nbsp
               <font color="red"
                 ><strong
                   >(Oral Presentation, Best Paper Award Finalist)</strong
                 ></font
               >
-              <br />
+               
               <a href="https://arxiv.org/abs/1701.03077">arxiv</a> /
               <a
                 href="https://drive.google.com/open?id=1HNveL7xSNh6Ss7sxLK8Mw2L1Fc-rRhL4"
@@ -1560,21 +1540,21 @@
                   Images</papertitle
                 >
               </a>
-              <br />
+               
               <a href="https://people.eecs.berkeley.edu/~pratul/"
                 >Pratul P. Srinivasan</a
               >, Richard Tucker, <strong>Jonathan T. Barron</strong>,
               <a href="http://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,
               <a href="http://graphics.stanford.edu/~renng/">Ren Ng</a>,
               <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a>
-              <br />
+               
               <em>CVPR</em>, 2019 &nbsp
               <font color="red"
                 ><strong
                   >(Oral Presentation, Best Paper Award Finalist)</strong
                 ></font
               >
-              <br />
+               
               <a
                 href="https://drive.google.com/file/d/1GUW_n-BAn9Q4VntEA_OTHNJiHO7XfC62/view?usp=sharing"
                 >supplement</a
@@ -1622,7 +1602,7 @@
                   >Unprocessing Images for Learned Raw Denoising</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://timothybrooks.com/">Tim Brooks</a>,
               <a href="https://people.eecs.berkeley.edu/~bmild/"
                 >Ben Mildenhall</a
@@ -1630,10 +1610,10 @@
               <a href="http://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
               <a href="http://www.dsharlet.com/">Dillon Sharlet</a>,
               <strong>Jonathan T. Barron</strong>
-              <br />
+               
               <em>CVPR</em>, 2019 &nbsp
               <font color="red"><strong>(Oral Presentation)</strong></font>
-              <br />
+               
               <a href="https://arxiv.org/abs/1811.11127">arxiv</a> /
               <a href="http://timothybrooks.com/tech/unprocessing/"
                 >project page</a
@@ -1680,13 +1660,13 @@
               >
                 <papertitle>Learning to Synthesize Motion Blur</papertitle>
               </a>
-              <br />
+               
               <a href="http://timothybrooks.com/">Tim Brooks</a>,
               <strong>Jonathan T. Barron</strong>
-              <br />
+               
               <em>CVPR</em>, 2019 &nbsp
               <font color="red"><strong>(Oral Presentation)</strong></font>
-              <br />
+               
               <a href="https://arxiv.org/abs/1811.11745">arxiv</a> /
               <a
                 href="https://drive.google.com/file/d/1dUQwBMmQdYYIP0zHR_nDQY-uQbaMdcSN/view?usp=sharing"
@@ -1739,14 +1719,14 @@
                   >Stereoscopic Dark Flash for Low-light Photography</papertitle
                 >
               </a>
-              <br />
+               
               <a href="https://www.andrew.cmu.edu/user/jianwan2/">Jian Wang</a>,
               <a href="https://people.csail.mit.edu/tfxue/">Tianfan Xue</a>,
               <strong>Jonathan T. Barron</strong>,
               <a href="http://people.csail.mit.edu/jiawen/">Jiawen Chen</a>
-              <br />
+               
               <em>ICCP</em>, 2019
-              <br />
+               
               <p></p>
               <p>
                 By making one camera in a stereo pair hyperspectral we can
@@ -1785,7 +1765,7 @@
               >
                 <papertitle>Depth from Motion for Smartphone AR</papertitle>
               </a>
-              <br />
+               
               <a href="https://www.linkedin.com/in/valentinjulien/"
                 >Julien Valentin</a
               >,
@@ -1793,9 +1773,9 @@
                 >Adarsh Kowdle</a
               >, <strong>Jonathan T. Barron</strong>,
               <a href="http://nealwadhwa.com">Neal Wadhwa</a>, and others
-              <br />
+               
               <em>SIGGRAPH Asia</em>, 2018
-              <br />
+               
               <a href="https://github.com/jonbarron/planar_filter"
                 >planar filter toy code</a
               >
@@ -1837,7 +1817,7 @@
                   Phone</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://nealwadhwa.com">Neal Wadhwa</a>,
               <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,
               <a href="http://graphics.stanford.edu/~dejacobs/"
@@ -1847,9 +1827,9 @@
                 >Yair Movshovitz-Attias</a
               >, <strong>Jonathan T. Barron</strong>, Yael Pritch,
               <a href="http://graphics.stanford.edu/~levoy/">Marc Levoy</a>
-              <br />
+               
               <em>SIGGRAPH</em>, 2018
-              <br />
+               
               <a href="https://arxiv.org/abs/1806.04171">arxiv</a> /
               <a
                 href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html"
@@ -1897,16 +1877,16 @@
                   Estimation</papertitle
                 >
               </a>
-              <br />
+               
               <a href="https://people.eecs.berkeley.edu/~pratul/"
                 >Pratul P. Srinivasan</a
               >, <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,
               <a href="http://nealwadhwa.com">Neal Wadhwa</a>,
               <a href="http://graphics.stanford.edu/~renng/">Ren Ng</a>,
               <strong>Jonathan T. Barron</strong>
-              <br />
+               
               <em>CVPR</em>, 2018
-              <br />
+               
               <a href="https://github.com/google/aperture_supervision">code</a>
               /
               <a href="data/Srinivasan2018.bib">bibtex</a>
@@ -1947,7 +1927,7 @@
                   >Burst Denoising with Kernel Prediction Networks</papertitle
                 >
               </a>
-              <br />
+               
               <a href="https://people.eecs.berkeley.edu/~bmild/"
                 >Ben Mildenhall</a
               >, <strong>Jonathan T. Barron</strong>,
@@ -1955,10 +1935,10 @@
               <a href="http://www.dsharlet.com/">Dillon Sharlet</a>,
               <a href="http://graphics.stanford.edu/~renng/">Ren Ng</a>, Robert
               Carroll
-              <br />
+               
               <em>CVPR</em>, 2018 &nbsp
               <font color="#FF8080"><strong>(Spotlight)</strong></font>
-              <br />
+               
               <a
                 href="https://drive.google.com/file/d/1aqk3Q-L2spjLZh2yRWKUWIDcZkGjQ7US/view?usp=sharing"
                 >supplement</a
@@ -2001,7 +1981,7 @@
                   Reality Video</papertitle
                 >
               </a>
-              <br />
+               
               <a href="https://homes.cs.washington.edu/~amrita/"
                 >Amrita Mazumdar</a
               >,
@@ -2014,9 +1994,9 @@
               <a href="http://homes.cs.washington.edu/~seitz/"
                 >Steven M. Seitz</a
               >
-              <br />
+               
               <em>High-Performance Graphics (HPG)</em>, 2017
-              <br />
+               
               <a href="https://sampa.cs.washington.edu/projects/vr-hw.html"
                 >project page</a
               >
@@ -2056,7 +2036,7 @@
                   Enhancement</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://www.mgharbi.com">Micha&euml;l Gharbi</a>,
               <a href="http://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
               <strong>Jonathan T. Barron</strong>,
@@ -2066,9 +2046,9 @@
               <a href="http://people.csail.mit.edu/fredo/"
                 >Fr&eacute;do Durand
               </a>
-              <br />
+               
               <em>SIGGRAPH</em>, 2017
-              <br />
+               
               <a href="https://groups.csail.mit.edu/graphics/hdrnet/"
                 >project page</a
               >
@@ -2122,13 +2102,13 @@
               <a href="https://arxiv.org/abs/1611.07596">
                 <papertitle>Fast Fourier Color Constancy</papertitle>
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>,
               <a href="https://ai.google/research/people/105312/">Yun-Ta Tsai</a
               >,
-              <br />
+               
               <em>CVPR</em>, 2017
-              <br />
+               
               <a href="https://youtu.be/rZCXSfl13rY">video</a> /
               <a href="data/BarronTsaiCVPR2017.bib">bibtex</a> /
               <a href="https://github.com/google/ffcc">code</a> /
@@ -2203,7 +2183,7 @@
               >
                 <papertitle>Jump: Virtual Reality Video</papertitle>
               </a>
-              <br />
+               
               <a href="http://mi.eng.cam.ac.uk/~ra312/">Robert Anderson</a>,
               <a href="https://www.cs.unc.edu/~gallup/">David Gallup</a>,
               <strong>Jonathan T. Barron</strong>,
@@ -2218,9 +2198,9 @@
               <a href="https://homes.cs.washington.edu/~seitz/"
                 >Steven M Seitz</a
               >
-              <br />
+               
               <em>SIGGRAPH Asia</em>, 2016
-              <br />
+               
               <a
                 href="https://drive.google.com/file/d/11D4eCDXqqFTtZT0WS2COJE0hsAN3QEww/view?usp=sharing"
                 >supplement</a
@@ -2272,7 +2252,7 @@
                   Imaging on Mobile Cameras</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://people.csail.mit.edu/hasinoff/"
                 >Samuel W. Hasinoff</a
               >, <a href="http://www.dsharlet.com/">Dillon Sharlet</a>,
@@ -2281,9 +2261,9 @@
               <strong>Jonathan T. Barron</strong>, Florian Kainz,
               <a href="http://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
               <a href="http://graphics.stanford.edu/~levoy/">Marc Levoy</a>
-              <br />
+               
               <em>SIGGRAPH Asia</em>, 2016
-              <br />
+               
               <a href="http://hdrplusdata.org/">project page</a> /
               <a
                 href="https://drive.google.com/open?id=15EUuSDi1BtHUgQCaiooVrD44qYKIC3vx"
@@ -2333,17 +2313,17 @@
               >
                 <papertitle>The Fast Bilateral Solver</papertitle>
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>,
               <a href="https://cs.stanford.edu/~poole/">Ben Poole</a>
-              <br />
+               
               <em>ECCV</em>, 2016 &nbsp
               <font color="red"
                 ><strong
                   >(Oral Presentation, Best Paper Honorable Mention)</strong
                 ></font
               >
-              <br />
+               
               <a href="http://arxiv.org/abs/1511.03296">arXiv</a> /
               <a
                 href="https://drive.google.com/file/d/0B4nuwEMaEsnmdEREcjhlSXM2NGs/view?usp=sharing"
@@ -2408,12 +2388,12 @@
                   Cameras</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://www.stephendiverdi.com/">Stephen DiVerdi</a>,
               <strong>Jonathan T. Barron</strong>
-              <br />
+               
               <em>WACV</em>, 2016
-              <br />
+               
               <a href="data/Diverdi2016.bib">bibtex</a>
               <p></p>
               <p>
@@ -2452,15 +2432,15 @@
                   Transform</papertitle
                 >
               </a>
-              <br />
+               
               <em>CVPR</em>, 2016
-              <br />
+               
               <a href="http://liangchiehchen.com/">Liang-Chieh Chen</a>,
               <strong>Jonathan T. Barron</strong>,
               <a href="http://ttic.uchicago.edu/~gpapan/">George Papandreou</a>,
               <a href="http://www.cs.ubc.ca/~murphyk/">Kevin Murphy</a>,
               <a href="http://www.stat.ucla.edu/~yuille/">Alan L. Yuille</a>
-              <br />
+               
               <a href="data/Chen2016.bib">bibtex</a> /
               <a href="http://liangchiehchen.com/projects/DeepLab.html"
                 >project page</a
@@ -2507,11 +2487,11 @@
               >
                 <papertitle>Convolutional Color Constancy</papertitle>
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>
-              <br />
+               
               <em>ICCV</em>, 2015
-              <br />
+               
               <a
                 href="https://drive.google.com/file/d/1vO3sVOMihmpNqsuASeR46Y_iME0lOANR/view?usp=sharing"
                 >supplement</a
@@ -2543,15 +2523,15 @@
                   >Scene Intrinsics and Depth from a Single Image</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://imaginarynumber.net/">Evan Shelhamer</a>,
               <strong>Jonathan T. Barron</strong>,
               <a href="http://www.eecs.berkeley.edu/%7Etrevor/"
                 >Trevor Darrell</a
               >
-              <br />
+               
               <em>ICCV Workshop</em>, 2015
-              <br />
+               
               <a href="data/Shelhamer2015.bib">bibtex</a>
               <p></p>
               <p>
@@ -2598,16 +2578,16 @@
                   >Fast Bilateral-Space Stereo for Synthetic Defocus</papertitle
                 >
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>,
               <a href="http://people.csail.mit.edu/abadams/">Andrew Adams</a>,
               <a href="http://people.csail.mit.edu/yichangshih/">YiChang Shih</a
               >,
               <a href="http://carlos-hernandez.org/">Carlos Hern&aacutendez</a>
-              <br />
+               
               <em>CVPR</em>, 2015 &nbsp
               <font color="red"><strong>(Oral Presentation)</strong></font>
-              <br />
+               
               <a
                 href="https://drive.google.com/file/d/125qgMdqeT1vojMIijIKcOF099LjUgUOL/view?usp=sharing"
                 >abstract</a
@@ -2665,7 +2645,7 @@
                   Object Proposal Generation</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://imatge.upc.edu/web/people/jordi-pont-tuset"
                 >Jordi Pont-Tuset</a
               >,
@@ -2675,9 +2655,9 @@
               <a href="http://imatge.upc.edu/web/ferran">Ferran Marqu&eacutes</a
               >,
               <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-              <br />
+               
               <em>TPAMI</em>, 2017
-              <br />
+               
               <a
                 href="http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/"
                 >project page</a
@@ -2734,12 +2714,12 @@
                     Shading</papertitle
                   >
                 </a>
-                <br />
+                 
                 <strong>Jonathan T. Barron</strong>,
                 <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-                <br />
+                 
                 <em>TPAMI</em>, 2015
-                <br />
+                 
                 <a href="data/BarronMalikTPAMI2015.bib">bibtex</a> /
                 <a
                   href="https://drive.google.com/file/d/0B4nuwEMaEsnmVWpfa19mbUxIYW8/view?usp=sharing"
@@ -2793,7 +2773,7 @@
               >
                 <papertitle>Multiscale Combinatorial Grouping</papertitle>
               </a>
-              <br />
+               
               <a href="http://www.cs.berkeley.edu/~arbelaez/"
                 >Pablo Arbel&aacuteez</a
               >,
@@ -2803,9 +2783,9 @@
               <a href="http://imatge.upc.edu/web/ferran">Ferran Marqu&eacutes</a
               >,
               <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-              <br />
+               
               <em>CVPR</em>, 2014
-              <br />
+               
               <a
                 href="http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/"
                 >project page</a
@@ -2851,18 +2831,18 @@
                   Features</papertitle
                 >
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>,
               <a href="http://www.cs.berkeley.edu/~arbelaez/"
                 >Pablo Arbel&aacuteez</a
               >, <a href="http://big.lbl.gov/">Soile V. E. Ker&aumlnen</a>,
               <a href="http://www.lbl.gov/gsd/biggin.html">Mark D. Biggin</a>,
-              <br />
+               
               <a href="http://dwknowles.lbl.gov/">David W. Knowles</a>,
               <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-              <br />
+               
               <em>ICCV</em>, 2013
-              <br />
+               
               <a
                 href="https://drive.google.com/file/d/1htiLpMAcYLtuBthmAb4XHnOYxUbkfnqR/view?usp=sharing"
                 >supplement</a
@@ -2918,14 +2898,14 @@
               >
                 <papertitle>3D Self-Portraits</papertitle>
               </a>
-              <br />
+               
               <a href="http://www.hao-li.com/">Hao Li</a>,
               <a href="http://www.evouga.com/">Etienne Vouga</a>, Anton Gudym,
               <a href="http://www.cs.princeton.edu/~linjiel/">Linjie Luo</a>,
               <strong>Jonathan T. Barron</strong>, Gleb Gusev
-              <br />
+               
               <em>SIGGRAPH Asia</em>, 2013
-              <br />
+               
               <a href="http://www.youtube.com/watch?v=DmUkbZ0QMCA">video</a> /
               <a href="http://shapify.me/">shapify.me</a> /
               <a href="data/3DSP_siggraphAsia2013.bib">bibtex</a>
@@ -2967,13 +2947,13 @@
                   Image</papertitle
                 >
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>,
               <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-              <br />
+               
               <em>CVPR</em>, 2013 &nbsp
               <font color="red"><strong>(Oral Presentation)</strong></font>
-              <br />
+               
               <a
                 href="https://drive.google.com/file/d/1cLUw72WpgdZ_3TQAjJABdgywqjBfn_Mq/view?usp=sharing"
                 >supplement</a
@@ -3005,8 +2985,8 @@
                 By embedding mixtures of shapes &amp; lights into a soft
                 segmentation of an image, and by leveraging the output of the
                 Kinect, we can extend SIRFS to scenes.
-                <br />
-                <br />TPAMI Journal version:
+                 
+                 TPAMI Journal version:
                 <a
                   href="https://drive.google.com/file/d/1iQiUxZvjPPnb8rFCwXYesTgFSRk7mkAq/view?usp=sharing"
                   >version</a
@@ -3032,15 +3012,15 @@
                   >Boundary Cues for 3D Object Shape Recovery</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://www.kevinkarsch.com/">Kevin Karsch</a>,
               <a href="http://web.engr.illinois.edu/~liao17/">Zicheng Liao</a>,
               <a href="http://web.engr.illinois.edu/~jjrock2/">Jason Rock</a>,
               <strong>Jonathan T. Barron</strong>,
               <a href="http://www.cs.illinois.edu/homes/dhoiem/">Derek Hoiem</a>
-              <br />
+               
               <em>CVPR</em>, 2013
-              <br />
+               
               <a
                 href="https://drive.google.com/file/d/0B4nuwEMaEsnmLUQ5SVJTcUZIYXc/view?usp=sharing"
                 >supplement</a
@@ -3090,12 +3070,12 @@
                   Estimation</papertitle
                 >
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>,
               <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-              <br />
+               
               <em>ECCV</em>, 2012
-              <br />
+               
               <a
                 href="https://drive.google.com/file/d/1zuxhWZ3i6THvuRRBeE7dM_BJfDxO72Fq/view?usp=sharing"
                 >supplement</a
@@ -3145,12 +3125,12 @@
                   Unknown Object</papertitle
                 >
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>,
               <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-              <br />
+               
               <em>CVPR</em>, 2012
-              <br />
+               
               <a
                 href="https://drive.google.com/file/d/1Im_bUI42AP9VPoNtsjLajvtLRiwv39k3/view?usp=sharing"
                 >supplement</a
@@ -3182,7 +3162,7 @@
                   Work</papertitle
                 >
               </a>
-              <br />
+               
               <a href="http://www.eecs.berkeley.edu/%7Eallie/">Allison Janoch</a
               >, <a href="http://sergeykarayev.com/">Sergey Karayev</a>,
               <a href="http://www.eecs.berkeley.edu/%7Ejiayq/">Yangqing Jia</a>,
@@ -3192,9 +3172,9 @@
               <a href="http://www.eecs.berkeley.edu/%7Etrevor/"
                 >Trevor Darrell</a
               >
-              <br />
+               
               <em>ICCV 3DRR Workshop</em>, 2011
-              <br />
+               
               <a href="data/B3DO_ICCV_2011.bib">bibtex</a> /
               <a
                 href="https://drive.google.com/file/d/1qf4-U5RhSw12O7gzQwW66SMQhs2FWYDW/view?usp=sharing"
@@ -3227,12 +3207,12 @@
                   Image Statistics</papertitle
                 >
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>,
               <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-              <br />
+               
               <em>CVPR</em>, 2011
-              <br />
+               
               <a href="data/BarronMalikCVPR2011.bib">bibtex</a>
               <p>This paper is subsumed by <a href="#SIRFS">SIRFS</a>.</p>
             </td>
@@ -3256,12 +3236,12 @@
                   Classification</papertitle
                 >
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>,
               <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-              <br />
+               
               <em>Technical Report</em>, 2010
-              <br />
+               
               <a href="data/BarronTR2010.bib">bibtex</a>
               <p>
                 A model and feature representation that allows for sub-linear
@@ -3280,15 +3260,15 @@
               >
                 <papertitle>Parallelizing Reinforcement Learning</papertitle>
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>,
               <a href="http://www.eecs.berkeley.edu/~dsg/">Dave Golland</a>,
               <a href="http://www.cs.berkeley.edu/~nickjhay/"
                 >Nicholas J. Hay</a
               >
-              <br />
+               
               <em>Technical Report</em>, 2009
-              <br />
+               
               <a href="data/BarronPRL2009.bib">bibtex</a>
               <p>
                 Markov Decision Problems which lie in a low-dimensional latent
@@ -3316,12 +3296,12 @@
                   Historical Images</papertitle
                 >
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>,
               <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>,
               <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>,
               <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>
-              <br />
+               
               <em>The Astronomical Journal</em>, 136, 2008
               <p>
                 Using the relative motions of stars we can accurately estimate
@@ -3348,13 +3328,13 @@
                   Optical Artifacts</papertitle
                 >
               </a>
-              <br />
+               
               <strong>Jonathan T. Barron</strong>,
               <a href="http://stumm.ca/">Christopher Stumm</a>,
               <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>,
               <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>,
               <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>
-              <br />
+               
               <em>The Astronomical Journal</em>, 135, 2008
               <p>
                 We use computer vision techniques to identify and remove
@@ -3393,11 +3373,11 @@
               <a href="http://cvpr2021.thecvf.com/area-chairs"
                 >Area Chair, CVPR 2021</a
               >
-              <br /><br />
+                
               <a href="http://cvpr2019.thecvf.com/area_chairs"
                 >Area Chair, CVPR 2019</a
               >
-              <br /><br />
+                
               <a href="http://cvpr2018.thecvf.com/organizers/area_chairs"
                 >Area Chair, CVPR 2018</a
               >
@@ -3412,14 +3392,14 @@
                 href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html"
                 >Graduate Student Instructor, CS188 Spring 2011</a
               >
-              <br />
-              <br />
+               
+               
               <a
                 href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html"
                 >Graduate Student Instructor, CS188 Fall 2010</a
               >
-              <br />
-              <br />
+               
+               
               <a href="http://aima.cs.berkeley.edu/"
                 >Figures, "Artificial Intelligence: A Modern Approach", 3rd
                 Edition</a
