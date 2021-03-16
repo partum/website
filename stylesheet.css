@@ -1,7 +1,8 @@
 body {
   display: flex;
   font-family: "Nunito", sans-serif;
-  padding: 1vw 5vw;
+  padding: 0 5vw;
+  margin: 0;
 }
 
 #profile {
@@ -11,6 +12,8 @@ body {
   position: sticky;
   top: 0;
   margin-right: 4vw;
+  height: 100vh;
+  padding-top: 50px;
 }
 
 #JonPic {
