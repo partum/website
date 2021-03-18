@@ -98,7 +98,7 @@ a:hover {
   -webkit-transition: opacity 0.2s ease-in-out;
 }
 
-span.highlight {
+.highlight {
   background-color: #ffffd0;
 }
 
