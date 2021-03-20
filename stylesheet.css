@@ -12,8 +12,13 @@ body {
   position: sticky;
   top: 0;
   margin-right: 72px;
-  height: 100vh;
+  height: 90vh;
   padding-top: 50px;
+  width: 270px;
+  flex-shrink: 0;
+  overflow: auto;
+  margin-right: 36px;
+  padding-right: 36px;
 }
 
 #JonPic {
@@ -128,4 +133,8 @@ article {
 
 #myBtn:hover {
   opacity: 1;
+}
+
+#body {
+  margin-bottom: 72px;
 }
