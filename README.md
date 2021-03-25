@@ -13,8 +13,8 @@ After:
 
 ## Links
 
-[original site](https://jonbarron.info/)
-[live redesign](#)
+- [original site](https://jonbarron.info/)
+- [live redesign](https://juliaarrington.com/portfolio/jon)
 
 ## Changes I Made
 
@@ -30,10 +30,9 @@ After:
 ```HTML
 <p style="text-align: center">
       <name>Jon Barron</name>
-    </p>
-
+</p>
 ```
 
 ## Continued Development
 
-The biggest flaw of this site is that their is no mobile version. Maybe one day I will work on it, but right now I just want to be rid of this site. 😅
+The biggest flaw of this site is that there is no mobile version. Maybe one day I will work on it, but right now I just want to be rid of this site. 😅
